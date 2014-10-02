@@ -19,3 +19,4 @@ function addEvent(target, type, fn) {
             target.removeEventListener(type, fn);
         }
     }
+//IE9 以上已经支持addEventListener  IE11已经废掉attachEvent
